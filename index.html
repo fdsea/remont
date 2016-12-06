@@ -1,0 +1,186 @@
+<!DOCTYPE>
+<html>
+
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width,target-densityDpi=device-dpi">	
+    <title>Remont MSK</title>
+    <link rel="stylesheet" href="/css/main.css" />
+    <link rel="stylesheet" href="/css/media-queries.css" />
+    <link href='https://fonts.googleapis.com/css?family=Vollkorn:400,400italic' rel='stylesheet' type='text/css'>
+    <script type="text/javascript" src="http://szenprogs.ru/scripts/jquery-1.3.2.js"></script>
+    <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="mid">
+            <header class="header_main" id="header">
+                <h1 class="header_h1">Ваш Мастер</h1>
+                <h2 class="header_h2">Опыт. Качество. Репутация</h2>
+                <nav>
+                    <ul class="nav">
+                        <li><a href="#about" class="ancLinks">Обо мне</a></li>
+                        <li><a href="#reference" class="ancLinks">Отзывы</a></li>
+                        <li><a href="#contacts" class="ancLinks">Контакты</a></li>
+                    </ul>
+                </nav>
+
+                <div class="social_mine social_header">
+                    <a href="#">
+                        <div class="vk">
+                        </div>
+                    </a>
+                    <a href="#">
+                        <div class="odnoklassniky"></div>
+                    </a>
+                </div>
+            </header>
+        </div>
+        
+        <script type="text/javascript" src="/js/scroll.js"></script>
+        
+         
+        <div class="mid">
+            <section class="about" id="about">
+                <div class="half-col50">
+                    <div class="about_center about_foto"><img src="image/bg_mast__image.jpg" class="foto" width="1100px"></div>
+                </div>
+                <div class="half-col50">
+                    <div class="about_content">
+                        <h2>Приветствую Вас!</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt quaerat dolores dolorum a. Provident inventore, quo, repellat suscipit natus incidunt nobis, quisquam ipsa fuga eveniet fugiat optio cupiditate? Ea, ipsum! Lorem ipsum dolor sit amet, consectetur adipisicing elit. At labore autem eius non, animi quis voluptatem velit illum ea hic porro quasi mollitia qui alias facere expedita officiis, est tempore.
+                        </p>
+
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat veritatis illum quisquam, quam explicabo ratione architecto nulla voluptatibus sunt nisi deleniti possimus ipsam alias molestiae illo. Inventore deleniti neque illo.</p>
+
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae dolor laboriosam veritatis corporis, expedita sint consequuntur debitis quidem tempora provident iste vitae iure id mollitia dignissimos dolore, nesciunt eaque doloremque.</p>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+     <!--       Блок отзывов       -->
+       
+        <div class="mid">
+            <section class="reference" id="reference">
+                <div class="half-col50">
+                    <article class="ref">
+
+                        <div class="ref_foto_container">
+                            <img src="/image/bg__client1.jpg" width="400px" class="ref_foto1">
+                        </div>
+
+
+                        <div class="ref_content">
+                            <h3 class="ref_h3">Зинаида Хренова</h3>
+                            <p class="ref_p">Пришел, отремонтил ванную, предлагала водку - сказал НЕТ! Чем подкупил... красава!</p>
+
+                        </div>
+
+                    </article>
+                    <article class="ref">
+
+                        <div class="ref_foto_container">
+                            <img src="/image/bg__client2.jpg" width="400px" class="ref_foto2">
+                        </div>
+
+
+                        <div class="ref_content">
+                            <h3 class="ref_h3">Сеня Черный</h3>
+                            <p class="ref_p">Ну че сказать... норм мужик! Толчек я значится сломал... ну как я - жена, съела что то и сломала напором, он починил</p>
+                        </div>
+
+                    </article>
+                </div>
+                <div class="half-col50">
+                    <article class="ref">
+
+                        <div class="ref_foto_container">
+                            <img src="/image/bg__client3.jpg" width="300px" class="ref_foto3">
+                        </div>
+
+
+                        <div class="ref_content">
+                            <h3 class="ref_h3">Негр Стосороковой</h3>
+                            <p class="ref_p">Я не местный, из Африки - там туалетов вообще нет, гадим прям в песок и воды нет, он приехал и сделал нам толчок</p>
+                        </div>
+
+                    </article>
+                    <article class="ref">
+
+                        <div class="ref_foto_container">
+                            <img src="/image/bg__client4.jpg" width="250px" class="ref_foto4">
+                        </div>
+
+
+                        <div class="ref_content">
+                            <h3 class="ref_h3">Матильда Неюная</h3>
+                            <p class="ref_p">Кухня была похожа на сортир... как так получилось ХЗ... Но через пару дней все засияло как небо после атомного взрыва - хвала-халва!!!</p>
+                        </div>
+
+                    </article>
+                </div>
+            </section>
+        </div>
+
+
+        <!--   Блок отправки       -->
+
+        <div class="mid">
+
+            <section class="send_section" id="contacts">
+                <div class="half-col50">
+                    <div class="flex-col">
+                        <form action="/send/send-call.php" class="flex-col back_call" method="post">
+                            <h4 class="form_h4">ЗАКАЗАТЬ ЗВОНОК</h4>
+                            <input type="text" name="name" class="name" placeholder="ИМЯ" required>
+                            <input type="text" name="phone" class="phone" placeholder="НОМЕР ТЕЛЕФОНА" required>
+                            <label for="send_call" class="send">ОТПРАВИТЬ</label>
+                            <input type="submit" id="send_call" class="send" value="send">
+                        </form>
+                    </div>
+                </div>
+                <div class="half-col50">
+                    <div class="flex-col">
+                        <form action="/send/send-message.php" class="flex-col email" method="post">
+                            <h4>НАПИСАТЬ СООБЩЕНИЕ</h4>
+                            <input type="text" name="name" class="name" placeholder="ИМЯ" required>
+                            <input type="text" name="emailsend" class="name" placeholder="ВАШ EMAIL" required>
+                            <textarea name="textarea" id="" cols="" rows="7" class="textarea">введите сообщение...</textarea>
+                            <label for="send_mail" class="send">ОТПРАВИТЬ</label>
+                            <input type="submit" id="send_mail" class="send" value="send">
+                        </form>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <!--                                         -->
+
+
+    </div>
+    <div class="mid">
+        <footer class="footer_main">
+            <div class="left_cont">
+                <a href="#header" class="ancLinks">
+                    <div class="arrow_up"></div>
+                </a>
+                <p>NoteD * 2016</p>
+            </div>
+            <div class="right_cont">
+                <h4>КОНТАКТНАЯ ИНФОРМАЦИЯ:</h4>
+                <p><span>TEL:</span>(945)234-56-78</p>
+                <p><span>EMAIL:</span>vashremont@google.com</p>
+            </div>
+        </footer>
+
+    </div>
+
+
+
+
+
+</body>
+
+</html>
